@@ -1,0 +1,32 @@
+.product-card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    box-shadow: var(--shadow-small);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    overflow: hidden; 
+}
+
+.product-card:hover,
+.product-card:focus {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-medium);
+}
+
+.product-card-content {
+    padding: 16px;
+}
+
+.product-card-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+    color: var(--color-primary);
+}
+
+.product-card-sku {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    margin: 0;
+}

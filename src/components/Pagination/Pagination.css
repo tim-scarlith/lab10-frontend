@@ -1,0 +1,15 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.pagination-info {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    min-width: 120px;
+    text-align: center;
+}

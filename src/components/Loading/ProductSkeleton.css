@@ -1,0 +1,29 @@
+@keyframes pulse {
+    0% { background-color: #eee; }
+    50% { background-color: #e0e0e0; }
+    100% { background-color: #eee; }
+}
+
+.skeleton-card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: var(--shadow-small);
+}
+
+.skeleton-line {
+    height: 20px;
+    border-radius: 4px;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+.skeleton-line.title {
+    width: 60%;
+    height: 24px;
+    margin-bottom: 12px;
+}
+
+.skeleton-line.text {
+    width: 80%;
+}
